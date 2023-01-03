@@ -14,3 +14,28 @@
     background-size:cover;
     position:relative;
 }
+
+.text-box{
+    width:90%;
+    color:#fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+}
+.labels {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    vertical-align: top;
+    margin-top: 20px;
+  }
+  
+  .input-tab {
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+    margin-left: 10px;
+  }
+  
