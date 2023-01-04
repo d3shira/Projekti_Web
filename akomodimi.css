@@ -5,10 +5,10 @@
 }
 
 .header{
-    min-height:100vh;
-    width:100%;
-    background-image: 
-    url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/63/68/12/hotel-outdor.jpg?w=700&h=-1&s=1);
+    margin:auto;
+    min-height: 100vh;
+    width: 95%;
+    background-image:url(images/magra\ austria.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
