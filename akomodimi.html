@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="akomodimi.css">
     <style>
         #dropdown {
-    width: 30%;
+    width: auto;
     padding: 5px;
     margin: 20px 0 10px 10px;  
     border: 1px solid #e67e22;
@@ -28,12 +28,11 @@
         Here are the best hotel booking sites, including recommendations 
      for international travel and for finding low-priced hotel rooms.   
     </p>
+  </div>
 
     <br>
-
-<div class="labels">
-    <label for="dropdown">   Choose the region in which you want to stay: </label></div>
-  <div class="input-tab">
+  <div class="selection" style="display:flex;justify-content: center;align-items:center;width:100%;">
+    <label for="dropdown" style="color:white;width:auto;">Choose the region in which you want to stay:</label>
     <select id="dropdown" name="site">
       <option disabled value selected>Select an option</option>
       <option value="prishtina">Prishtina</option>
@@ -44,8 +43,8 @@
       <option value="gjilani">Gjilan</option>
       <option value="ferizaj">Ferizaj</option>
     </select>
-    </div>
-</div>
+  </div>
+
 </section>
 </body>
 </html>
