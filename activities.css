@@ -5,8 +5,9 @@
 
 .top{
     margin:auto;
-    min-height: 100vh;
-    width: 95%;
+    /*min-height: 100vh;*/
+    width: 100%;
+    height:550px;
     background-image: linear-gradient(#7b7b7b65,rgba(94, 95, 101, 0.358)),url(images/Activities/brezo.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -37,10 +38,24 @@
 }
 
 .activities{
-    flex-basis:30%;
-    background-color: antiquewhite;
-    border-radius: 10px;
-    margin:auto;
-    padding:20px 12px;
+    flex-basis:25%;
+    background-color: rgb(236, 235, 250);
+    border-radius: 18px;
+    margin: auto;
     box-sizing: border-box;
+    transition:0.5s;
+    padding-top: 10px;
+
+    
+}
+
+.activities:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+}
+
+.activities img{
+    width: 400px;
+    height:250px;
+    padding:10px;
+    border-radius: 18px;
 }
