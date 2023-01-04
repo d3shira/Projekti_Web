@@ -1,0 +1,45 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    list-style:none;
+    font-family:'Poppins',sans-serif;
+}
+.fillimi{
+    width:100%;
+    height:80px;
+    background-color: rgb(255, 243, 243);
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    color:#000;
+}
+.signup a{
+    text-decoration: none;
+    color:#000;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding:10px 28px;
+    border:2px solid #000;
+}
+.signup a:hover{
+    background-color:white;
+    transition: 0.5s;
+}
+.body{
+    width:100%;
+    height:90vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-creative-synthetic-road-background-image_262314.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+
+
+}

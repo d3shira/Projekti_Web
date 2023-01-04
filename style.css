@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style:none ;
+    font-family:'popins',sans-serif;
+}
+a,a:hover{
+    text-decoration: none;
+    color:black
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+.header{
+    width:100%;
+    height:100vh;
+    background-color: aqua;
+}
