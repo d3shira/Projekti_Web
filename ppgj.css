@@ -3,7 +3,7 @@
     margin:auto;
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(#00000065,rgba(0, 0, 0, 0.358)),url(images/hotel1.jpg);
+    background-image: linear-gradient(#7b7b7b65,rgba(94, 95, 101, 0.358)),url(images/hotel1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
