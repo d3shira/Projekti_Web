@@ -1,8 +1,9 @@
+
 *{
     margin: 0;
     padding: 0;
 }
-
+/*ACTIVITIES*/
 .top{
     margin:auto;
     /*min-height: 100vh;*/
@@ -44,7 +45,7 @@
     margin: auto;
     box-sizing: border-box;
     transition:0.5s;
-    padding-top: 10px;
+    padding:20px;
 
     
 }
@@ -58,4 +59,13 @@
     height:250px;
     padding:10px;
     border-radius: 18px;
+}
+a {
+    text-decoration:none;
+    color:rgb(69, 68, 68);
+}
+
+section{
+    margin-left: 30px;
+    margin-right: 30px;
 }
