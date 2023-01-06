@@ -52,7 +52,7 @@ li{
     transition: all 0.3s ease-in-out;
 }
 .header .fillimi .social-media ul li i:hover{
-    background-color:red;
+    background-color:orange;
 }
 .body{
     width:100%;
