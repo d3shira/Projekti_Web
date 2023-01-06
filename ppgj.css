@@ -1,8 +1,8 @@
 
 .first{
     margin:auto;
-    min-height: 100vh;
-    width: 100%;
+    min-height: 75vh;
+    width: 80%;
     background-image: linear-gradient(#7b7b7b65,rgba(94, 95, 101, 0.358)),url(images/akomodimi/hotel1.jpg);
     background-repeat: no-repeat;
     background-position: center;
