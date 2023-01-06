@@ -51,7 +51,7 @@ li{
     background-color: darkgrey;
     transition: all 0.3s ease-in-out;
 }
-.header .nav-bar .social-media ul li i:hover{
+.header .fillimi .social-media ul li i:hover{
     background-color:red;
 }
 .body{
@@ -240,4 +240,7 @@ li{
  }
  .places2 h2{
     border-radius:12px 12px 0 0;
+ }
+ .footer a:hover{
+    color:rgb(215, 128, 20);
  }
