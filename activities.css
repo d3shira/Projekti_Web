@@ -7,7 +7,7 @@
 .top{
     margin:auto;
     /*min-height: 100vh;*/
-    width: 100%;
+   /* width: 100%; */
     height:550px;
     background-image: linear-gradient(#7b7b7b65,rgba(94, 95, 101, 0.358)),url(images/Activities/brezo.jpg);
     background-position: center;
@@ -17,7 +17,7 @@
 }
 
 .bigtext{
-    width:100%;
+   /* width:100%; */
     margin:auto;
     color: #fff;
     text-align:center;
@@ -63,9 +63,11 @@
 a {
     text-decoration:none;
     color:rgb(69, 68, 68);
+    display:inline;
 }
 
 section{
     margin-left: 30px;
     margin-right: 30px;
 }
+
