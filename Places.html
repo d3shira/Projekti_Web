@@ -3,20 +3,55 @@
 <head>
     <title>Places to go</title>
     <link rel="stylesheet" href="places.css">
+    <script type="text/javascript" src="places.js"></script>
+    
 </head>
 <body>
-  <div class="background_image">
-   <div class="text">
-       <h2>Prishtina</h2>
+  <div class="slideshow-container">
 
-   </div>
-   <div class="lttext">
-    <pre>Perfect daytrip base! It has the quirkiest library
-         in the world,also a wonderful café culture. Prishtina
-         is the city of cameleon letters.
-        </pre>
-   </div>
+    
+    <div class="mySlides ">
+      <div class="FOTO1">
+      <div class="TEXT1"><h2>Prishtina</h2></div>
+        <div class="txt1">
+            <pre>Perfect daytrip base! It has the quirkiest library
+                 in the world,also a wonderful café culture. Prishtina
+                 is the city of cameleon letters.
+                </pre>
+           </div>
+    
+</div>
+    </div>
+  
+    <div class="mySlides ">
+      <div class="numbertext">2 / 3</div>
+      <img src="PRIZRENI.jpg" style="width:100%">
+      <div class="text2"></div>
+    </div>
+  
+    <div class="mySlides ">
+      <div class="numbertext">3 / 3</div>
+      <img src="PEJA.jpg" style="width:100%">
+      <div class="text3"></div>
+    </div>
+  
+    <div class="mySlides ">
+        <div class="numbertext">3 / 3</div>
+        <img src="MITROVICA.jpg" style="width:100%">
+        <div class="text4"></div>
+      </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
+  <br>
+  
 
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
 </body>
 </html>
