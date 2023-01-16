@@ -1,12 +1,4 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
 
-}
-main{
-
-}
 
 
 .swiper{
@@ -52,10 +44,7 @@ text-align: right;
 }
 
 
-main{
-  margin:auto;
-  background-color: rgb(250, 241, 225);
-}
+
 
 
 .offers{
@@ -68,11 +57,12 @@ margin:auto;
 
 }
 .offers h2{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   color:rgb(55, 21, 0);
   font-weight:600;
   text-align: center;
   padding:60px 0px 10px 0px;
+  font-size: 30px;
 }
 .offers .cards{
   margin-top: 20px;
@@ -83,47 +73,50 @@ margin:auto;
   flex-wrap:wrap;
 }
 .card{
-  position: relative;
+  position:relative;
   width: 270px;
-  height: 400px;
+  height: 380px;
   /*border:1px solid rgb(67, 27, 1);*/
   margin:0px;
-  background-color:rgb(243, 225, 178);
-  border-radius: 10px;
+  background-color: rgb(241, 223, 192);
+  border-radius: 15px;
+  margin-top:30px;
 }
 
 .card h3{
   width:100%;
   padding:6px 0px;
-  background: rgb(226, 185, 123) ;
-  border-radius: 5px;;
-  font-size: 18px;
+  background: rgb(156, 117, 78);
+  border-radius: 15px 15px 0px 0px;
+  font-size: 20px;
   display: grid;
   place-items:center;
   margin:auto;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   
 }
 
 .img_text img{
   position:relative;
   width:100%;
-  height:100%;
-  border-radius: 5px;
+  height:170px;
+  border-radius: 0px;
 
 }
 
 .fas{
-  bottom:30px;
-  color:rgb(89, 174, 89);
+position:absolute;
+bottom:5px;
+  color:rgb(0, 101, 0);
   font-size:25px;
 }
 
 .link{
   margin:5px;
 position:absolute;
-top:380px;
+bottom:0px;
 right:0px;
-color:rgb(0, 78, 0);
+color:rgb(80, 44, 8);
 
 
 }
@@ -142,9 +135,13 @@ color:rgb(0, 78, 0);
 .fas:hover{
   color:rgb(84, 75, 75);
 }
- 
+
+.link:hover{
+  color:black;
+}
+
 .link:visited{
-  color:rgb(86, 79, 79);
+  color:rgb(102, 101, 101);
 }
 
 .linqet{
