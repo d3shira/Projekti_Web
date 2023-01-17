@@ -45,8 +45,6 @@ text-align: right;
 
 
 
-
-
 .offers{
   
   width:90%;
@@ -85,7 +83,7 @@ margin:auto;
 
 .card h3{
   width:100%;
-  padding:6px 0px;
+  padding:10px 0px;
   background: rgb(156, 117, 78);
   border-radius: 15px 15px 0px 0px;
   font-size: 20px;
@@ -146,4 +144,33 @@ color:rgb(80, 44, 8);
 
 .linqet{
   padding-bottom: 0px;
+}
+
+footer{
+  background: rgb(156, 117, 78);
+height:800px;
+}
+
+
+.icon{
+  width:100px;
+ 
+}
+
+.widget{
+  width:400px;
+  height: 200px;
+  border-radius: 20px;
+  background: rgba(299, 299, 299, 0.4);
+  
+
+}
+
+footer{
+  font-family: 'Poppins', sans-serif;
+  
+}
+.left{
+  color:white;
+ margin-left:30%;
 }
