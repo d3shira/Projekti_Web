@@ -47,6 +47,7 @@
     transition:0.5s;
     padding:20px;
 
+
     
 }
 
@@ -59,6 +60,7 @@
     height:250px;
     padding:10px;
     border-radius: 18px;
+    
 }
 a {
     text-decoration:none;
@@ -71,3 +73,10 @@ section{
     margin-right: 30px;
 }
 
+
+.imgactivity-zoom{
+    transition: transform .5s ease;
+} 
+.imgactivity:hover{
+    transform: scale(1.2);
+}
