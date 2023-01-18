@@ -45,8 +45,10 @@
     /*new code per dropdown list*/
   /* Dropdown Button */
 .dropbtn {
-    background-color: #3498DB;
-    color: white;
+    background-color: white;
+    height:30px;
+    width:200px;
+    color: rgb(0, 0, 0);
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -55,7 +57,7 @@
   
   /* Dropdown button on hover & focus */
   .dropbtn:hover, .dropbtn:focus {
-    background-color:blue;
+    background-color:rgb(156, 156, 215);
   }
 
   .dropdown {
@@ -84,5 +86,5 @@
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {background-color: #ddd;}
   
-  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  /* Show the dropdown menu ( used JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
