@@ -27,7 +27,7 @@ section{
 }
 
 .left map{
-    transition: transform .5s;
+    transition: transform .5s ease;
 }
 
 .map:hover{
