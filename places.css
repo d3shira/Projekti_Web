@@ -145,16 +145,14 @@ abbr{
   font-style:italic;
   color:rgb(156, 66, 10);
 }
-footer{
-  background: rgb(156, 117, 78);
-height:400px;
-font-family: 'Poppins', sans-serif;
 
-}
+
+
 .weatherWidget{
- padding-left:80%;
- padding-top:2%;
-
+ width:50%;
+ float: left;
+padding: 20px;
+   
 
 }
 
@@ -163,10 +161,27 @@ color:rgb(66, 39, 0);
 font-family: 'Poppins', sans-serif;
 text-align: center;
 margin-top:50px;
+font-size: 30px;
+
 }
 
-.klima{
-  
+footer{
+height:500px;  
+background: rgb(156, 117, 78);
+
+}
+
+.tekssti{
+  font-style: oblique;
+  padding-top:50%;
+  text-align: left;
+  font-size: 20px;
+  color:rgb(49, 22, 0);
+
+}
+.weather{
+  background-color: rgb(250, 241, 225);
+
 }
 
 
