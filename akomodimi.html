@@ -36,20 +36,14 @@
     <br>
   <div class="selection" style="display:flex;justify-content: center;align-items:center;width:100%;">
     <label for="dropdown" style="color:white;width:auto;">Choose the region in which you want to stay:</label>
-    <select id="dropdown" name="site">
-      <option disabled value selected>Select an option</option>
-      <option value="prishtina">Prishtina</option>
-      <option value="prizren">Prizren</option>
-      <option value="peja" onclick="pageRedirect()">Peja</option>
-      <option value="mitrovica">Mitrovica</option>
-      <option value="gjakova">Gjakova</option>
-      <option value="gjilani">Gjilan</option>
-      <option value="ferizaj">Ferizaj</option>
-
-     
-    </select>
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Select an option</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="peja prizren gjakova.html">Rrafshi i Dukagjinit</a>
+        <a href="prishtina.html">Rrafshi i Kosoves</a>
+      
+      </div>
+    </div>
   </div>
-
-</section>
 </body>
 </html>
