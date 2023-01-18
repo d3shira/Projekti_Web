@@ -1,6 +1,4 @@
 
-
-
 .swiper{
   width:100%;
   height:fit-content;
@@ -142,35 +140,39 @@ color:rgb(80, 44, 8);
   color:rgb(102, 101, 101);
 }
 
-.linqet{
-  padding-bottom: 0px;
-}
 
+abbr{
+  font-style:italic;
+  color:rgb(156, 66, 10);
+}
 footer{
   background: rgb(156, 117, 78);
-height:800px;
+height:400px;
+font-family: 'Poppins', sans-serif;
+
+}
+.weatherWidget{
+ padding-left:80%;
+ padding-top:2%;
+
+
 }
 
-
-.icon{
-  width:100px;
- 
+h3{
+color:rgb(66, 39, 0);
+font-family: 'Poppins', sans-serif;
+text-align: center;
+margin-top:50px;
 }
 
-.widget{
-  width:400px;
-  height: 200px;
-  border-radius: 20px;
-  background: rgba(299, 299, 299, 0.4);
+.klima{
   
-
 }
 
-footer{
-  font-family: 'Poppins', sans-serif;
-  
-}
-.left{
-  color:white;
- margin-left:30%;
-}
+
+
+
+
+
+
+
