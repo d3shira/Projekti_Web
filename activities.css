@@ -80,3 +80,6 @@ section{
 .imgactivity:hover{
     transform: scale(1.2);
 }
+p{
+    font-size: 18px;
+}

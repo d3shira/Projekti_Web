@@ -26,16 +26,6 @@ section{
     margin:5px;
 }
 
-.left map{
-    transition: transform .5s ease;
-}
-
-.map:hover{
-    -ms-transform: scale(1.5); 
-    -webkit-transform: scale(1.5); 
-    transform: scale(1.5);
-}
-
 h1{
     width:100%;
     margin:auto;
@@ -52,4 +42,14 @@ h1{
     box-sizing: border-box;
     transition:0.5s;
     padding:20px;
+}
+
+img {
+    transition: transform .5s ease;
+} 
+img:hover{
+    transform: scale(1.2);
+}
+p{
+    font-size: 18px;
 }
