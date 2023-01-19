@@ -17,4 +17,10 @@ const swiper = new Swiper('.swiper', {
 
 
 
+const divs = document.getElementsByClassName("qyteti");
+for(const div of divs){
+    div.addEventListener("click", myFunction);
+}
+
+
 

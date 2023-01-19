@@ -1,3 +1,51 @@
+.vendet{
+  width:60%;
+  height:auto;
+  margin:0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*border:1px solid rgb(67, 27, 1);*/
+  
+}
+
+
+#qyteti{
+ color: rgb(4, 58, 4);
+
+}
+
+
+.qyteti{
+  position:relative;
+  width: 150px;
+  height:80px;
+  border:1px solid rgb(67, 27, 1);
+  margin:0px;
+  background-color: rgb(241, 223, 192);
+  border-radius: 15px;
+  margin-top:30px;
+  background-color: rgb(95, 148, 95);
+  border-color: rgb(4, 58, 4);
+  border-width: 2px;
+}
+.qyteti h4{
+  text-align: center;
+  padding-top:24px;
+  font-size: 25px;
+  color:rgb(0, 31, 15);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .swiper{
   width:100%;
@@ -216,13 +264,13 @@ background: rgb(156, 117, 78);
 
 .tekssti{
   font-style: oblique;
-  padding-top:50%;
+  padding-top:20%;
   text-align: left;
   font-size: 20px;
   color:rgb(49, 22, 0);
 
 }
-.weather{
+#weather{
   background-color: rgb(250, 241, 225);
 
 }
@@ -230,7 +278,43 @@ background: rgb(156, 117, 78);
 
 
 
+.prishtina{
+  margin-top: 0;
+}
+
+#pr{
+  text-align: center;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(70, 32, 0);
+}
+
+#description{
+  text-align: center;
+}
+
+#lista{
+  font-size: 20px;
+  margin-left:3%;
+}
+
+.li{
+  color:rgb(0, 31, 0);
+  font-size:25px;
+} 
+
+mark{
+  background-color:rgb(183, 186, 183);
+  border-radius: 10px;
+}
 
 
+.row {
+  display: flex;
+  
+}
 
-
+.column {
+  flex: 33.33%;
+  padding: 0px;
+}
