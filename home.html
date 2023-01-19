@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="navbar.css">
+        <script   src="home.js"></script>
+        <script src="https://kit.fontawesome.com/860c7896a7.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="bootstrap.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+ <div class="dropdown">
+    <nav>
+      <img class="logo" src="Kosova.png">
+        <ul>
+           <li><a href="#"><i class="fa-solid fa-location-dot"></i> Places to go</a>
+              <ul>
+                 <li><a href="#"> Locations</a>
+                 <li><a href="#">Map</a>  
+             </ul>
+          </li>
+            <li><a href="#"><i class="fa-solid fa-mountain-sun"></i> Activities</a>
+               <ul>
+                  <li><a href="#">Sport</a></li>
+                  <li><a href="#">Culture</a></li>
+                  <li><a href="#">Food</a></li>
+               </ul>
+            </li>
+           <li><a href="#"><i class="fa-solid fa-car"></i> Transportation</a></li>
+           <li><a href="#"><i class="fa-solid fa-house"></i> Accomodation </a></li>
+        </ul>
+   </nav>
+</div>
+<br>
+<br>
+<div class="slideshow-container">
+
+   <div class="mySlides fade">
+     <img src="images/home/prishtina.jpg" style="width:100%" height="50%">
+     <div class="text">Caption Text</div>
+   </div>
+   
+   <div class="mySlides fade">
+   
+     <img src="images/home/IMG_2898.jpg" style="width:100%" height="50%">
+     <div class="text">Caption Two</div>
+   </div>
+   
+   <div class="mySlides fade">
+     <img src="images/home/" style="width:100%" height="50%">
+     <div class="text">Caption Three</div>
+   </div>
+   
+   </div>
+   <br>
+   
+   <div style="text-align:center">
+     <span class="dot"></span> 
+     <span class="dot"></span> 
+     <span class="dot"></span> 
+   </div>
+
+<script>
+   let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>

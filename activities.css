@@ -8,7 +8,7 @@
     margin:auto;
     /*min-height: 100vh;*/
    /* width: 100%; */
-    height:550px;
+    height:500px;
     background-image: linear-gradient(#7b7b7b65,rgba(94, 95, 101, 0.358)),url(images/Activities/brezo.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -47,6 +47,7 @@
     transition:0.5s;
     padding:20px;
 
+
     
 }
 
@@ -59,6 +60,7 @@
     height:250px;
     padding:10px;
     border-radius: 18px;
+    
 }
 a {
     text-decoration:none;
@@ -71,3 +73,13 @@ section{
     margin-right: 30px;
 }
 
+
+.imgactivity-zoom{
+    transition: transform .5s ease;
+} 
+.imgactivity:hover{
+    transform: scale(1.2);
+}
+p{
+    font-size: 18px;
+}
