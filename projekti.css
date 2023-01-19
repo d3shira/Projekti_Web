@@ -249,3 +249,7 @@ li{
  .footer a:hover{
     color:rgb(215, 128, 20);
  }
+ mark{
+    background-color: rgb(215, 128, 20);
+    color: white;
+ }
