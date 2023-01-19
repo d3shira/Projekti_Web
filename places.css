@@ -1,50 +1,3 @@
-.vendet{
-  width:60%;
-  height:auto;
-  margin:0px auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  /*border:1px solid rgb(67, 27, 1);*/
-  
-}
-
-
-#qyteti{
- color: rgb(4, 58, 4);
-
-}
-
-
-.qyteti{
-  position:relative;
-  width: 150px;
-  height:80px;
-  border:1px solid rgb(67, 27, 1);
-  margin:0px;
-  background-color: rgb(241, 223, 192);
-  border-radius: 15px;
-  margin-top:30px;
-  background-color: rgb(95, 148, 95);
-  border-color: rgb(4, 58, 4);
-  border-width: 2px;
-}
-.qyteti h4{
-  text-align: center;
-  padding-top:24px;
-  font-size: 25px;
-  color:rgb(0, 31, 15);
-}
-
-
-
-
-
-
-
-
-
-
 
 
 .swiper{
@@ -54,8 +7,7 @@
 .swiper-slide img{
   width:100%;
 
-<<<<<<< Updated upstream
-=======
+}
 
 .mySlides {
   display:none;
@@ -96,7 +48,6 @@
   bottom: 8px;
   width: 100%;
   text-align: center;
->>>>>>> Stashed changes
 }
 .swiper .swiper-button-prev, .swiper .swiper-button-next{
   color:#fff;
