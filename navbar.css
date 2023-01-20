@@ -2,11 +2,15 @@
     margin: 0 auto;
     position: relative;
   
-  
+    opacity: 0.9;
     
   }
   nav{
+<<<<<<< Updated upstream
      background: #7f8f95;
+=======
+     background:  #66757b;
+>>>>>>> Stashed changes
      height: 75px;
      
   }
@@ -40,7 +44,11 @@
         margin-right: 30px;
     }
     nav ul li{
+<<<<<<< Updated upstream
      background:#7f8f95;
+=======
+     background: #66757b;
+>>>>>>> Stashed changes
         position: relative;
         list-style: none;
         display: inline-block;
@@ -51,16 +59,20 @@
   color: white;
   font-style: bold;
       text-decoration: none;
-      line-height: 70px;
+      line-height: 75px;
       font-size: 20px;
     
     }
     nav ul li a:hover{
+<<<<<<< Updated upstream
        background: #66757B;
+=======
+       background:  #515e63;
+>>>>>>> Stashed changes
     }
     nav ul ul {
         position: absolute;
-        top: 60px;
+        top: 70px;
         display: none;
     
     }
