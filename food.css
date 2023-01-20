@@ -54,7 +54,7 @@ a{
     max-height:100%;
     max-width:100%;
 }
-div{
+.content{
     box-sizing: border-box;
     height:350px;
     width:1000px;
@@ -73,7 +73,7 @@ div{
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: rgb(162, 103, 103);
+    background-color: #cfb797;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -81,11 +81,12 @@ div{
   }
   
   #myBtn:hover {
-    background-color: #555;
+    background-color: #915b3c;
   }
 
+
   ol li a:hover{
-    color:rgb(246, 153, 153);
+    color:#915b3c;
   }
   img {
     transition: transform .5s ease;
@@ -96,9 +97,14 @@ img:hover{
 }
 .foodbox{
     flex-basis:25%;
-    background-color: rgb(236, 235, 250);
+    background-color: #e8e6e7;
     border-radius: 18px;
     margin: 20px;
     box-sizing: border-box;
     padding:20px;
+    height:350px;
+    width:1000px;
+    margin-top:30px;
+    margin-bottom:30px;
+    padding:10px;
 }
