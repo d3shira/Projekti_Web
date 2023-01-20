@@ -6,18 +6,15 @@
     
   }
   nav{
-<<<<<<< Updated upstream
-     background: #7f8f95;
-=======
+
      background:  #66757b;
->>>>>>> Stashed changes
      height: 75px;
      
   }
   .logo {
      padding: 5px 0 0 40px;
-     width: 100px;
-     height:80px;
+     width: 70px;
+     height:70px;
   }
   
   .logo{
@@ -44,11 +41,9 @@
         margin-right: 30px;
     }
     nav ul li{
-<<<<<<< Updated upstream
-     background:#7f8f95;
-=======
+
      background: #66757b;
->>>>>>> Stashed changes
+
         position: relative;
         list-style: none;
         display: inline-block;
@@ -64,11 +59,9 @@
     
     }
     nav ul li a:hover{
-<<<<<<< Updated upstream
-       background: #66757B;
-=======
+
        background:  #515e63;
->>>>>>> Stashed changes
+
     }
     nav ul ul {
         position: absolute;
