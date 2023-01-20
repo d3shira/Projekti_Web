@@ -29,9 +29,8 @@ section{
 }
 
 section.first-pic{
-  background: url(images/home/kosovaaa.jpg);
+  background: linear-gradient(#53535365,rgba(59, 59, 59, 0.358)),url(images/home/kosovaaa.jpg); 
   background-size: cover;
-  
   
   
 }
