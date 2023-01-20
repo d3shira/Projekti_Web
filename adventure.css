@@ -53,6 +53,7 @@ img:hover{
 p{
     font-size: 18px;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #myBtn {
     display: none;
