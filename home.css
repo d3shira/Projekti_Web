@@ -1,64 +1,119 @@
-body{
-    
-    font-family: system-ui;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-   
-    
+body{   
+  font-family: system-ui;
+  margin: 0;
+  padding: 0;
+  height: 100vh;   
+  background-color: #edd9ab;
+ 
+
+ 
 }
 
+  
+  
 
-.mySlides {display: none;}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
+section{
   width: 100%;
-  text-align: center;
+  height: 115vh;
 }
 
+section.first-pic{
+  background: url(images/home/kosovaaa.jpg);
+  background-size: cover;
+  
+}
 
+.centered {
+  position: absolute;
+  color: white;
+  font-size: 45px;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered1 {
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
+.inline{
   display: inline-block;
-  transition: background-color 0.6s ease;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 60%;
+}
+.hr-line{
+width: 60%;
+margin: auto;
+
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+  /* background-color: #eee; */
+  color:#528555;
+  cursor: pointer;
+  padding: 30px 20px;
+  width: 60%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+  font-size: large;
+
+}
+.faq-body{
+  
+  margin: auto;
+  /* text-align: center; */
+ width: 40%; 
+ padding: auto;
+ 
 }
 
-.active {
-  background-color: #717171;
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+  background-color:#edd9ab;
 }
 
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+  padding: 0 18px;
+  background-color:#edd9ab;
+  display: none;
+  overflow: hidden;
 }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+.faq-page:after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
+}
+#container {
+  width: auto;
+  width: 90vmin;
+  border: 3px solid white;
+  border-radius: 5px;
+  box-shadow: 0 0 300px #333;
+}
+.video-player{
+  padding-left: 30px;
+  width: 500px;
+ height: 281.25px;
 }
