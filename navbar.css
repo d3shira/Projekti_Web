@@ -6,14 +6,14 @@
     
   }
   nav{
-     background: #66757b;
+     background: #7f8f95;
      height: 75px;
      
   }
   .logo {
      padding: 5px 0 0 40px;
-     width: 65px;
-     height:auto ;
+     width: px;
+     height:80px;
   }
   
   .logo{
@@ -32,11 +32,6 @@
   }
 
     
-    .logo {
-        padding: 5px 0 0 50px;
-        width: 60px;
-        height:auto ;
-    }
 
     nav ul {
         padding: 0;
@@ -45,7 +40,7 @@
         margin-right: 30px;
     }
     nav ul li{
-     background:#66757b;
+     background:#7f8f95;
         position: relative;
         list-style: none;
         display: inline-block;
@@ -61,7 +56,7 @@
     
     }
     nav ul li a:hover{
-       background: #026633;
+       background: #66757B;
     }
     nav ul ul {
         position: absolute;

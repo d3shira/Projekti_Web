@@ -89,7 +89,7 @@
 
 .offers h2{
   font-family:Arial, Helvetica, sans-serif;
-  color:rgb(55, 21, 0);
+  color:rgb(0, 0, 0);
   font-weight:600;
   text-align: center;
   padding:60px 0px 10px 0px;
@@ -111,7 +111,7 @@
   height: 380px;
   /*border:1px solid rgb(67, 27, 1);*/
   margin:0px;
-  background-color: rgb(241, 223, 192);
+  background-color:#E8E7E6;
   border-radius: 15px;
   margin-top:30px;
 }
@@ -119,8 +119,9 @@
 .card h3{
   width:100%;
   padding:10px 0px;
-  background: rgb(156, 117, 78);
-  border-radius: 15px 15px 0px 0px;
+  background: #CFB79F;
+  border-radius:10px 10px 0px 0px;
+  color:black;
   font-size: 20px;
   display: grid;
   place-items:center;
@@ -194,11 +195,6 @@ h3{
   font-size: 25px
 }
 
-footer{
-  height:500px;  
-  background: rgb(248, 220, 194);
-
-}
 
 .tekssti{
   font-family:Arial, Helvetica, sans-serif;
@@ -209,14 +205,14 @@ footer{
 }
 
 #weather{
-  background-color: rgb(250, 241, 225);
+  background-color:#E8E7E6;
   position:absolute;
 }
 
 mark{
-  background-color: rgb(244, 233, 225);
+  background-color: rgb(255, 255, 255);
   outline-style:outset;
-  outline-color: rgb(219, 201, 179);
+  outline-color:#7f8f95;
 }
 
 #h5{
@@ -245,11 +241,11 @@ th, td{
   padding-right: 20px;
 }
 td, th{
-  color:rgb(61, 60, 59);
-  background: rgb(255, 253, 253);
+  color:#000000;
+  background:#E8E7E6;
 
 
 }
 .qytetet{
-  background-color:  rgb(243, 243, 243);
+  background-color: #7f8f95;
 }
