@@ -1,9 +1,9 @@
 .entire{
-  background-color: burlywood;
+  background-color: white;
 }
 .first{
-  margin:auto;
-  min-height:85vh;
+  
+  min-height:75vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/akomodimi/hotel2.jpg);
   background-repeat: no-repeat;
@@ -38,7 +38,7 @@
   
   body {
     background-color: #f1f1f1;
-    padding: 20px;
+    
     font-family: Arial;
   }
   
@@ -74,7 +74,7 @@
     flex-basis:25%;
     width:33.33%;
     height:700px;
-    background-color:rgb(134, 97, 48);
+    background-color:#e8e6e7;
     border-radius: 18px;
     margin: 35px;
     box-sizing: border-box;
