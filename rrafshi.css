@@ -1,3 +1,37 @@
+.entire{
+  background-color: burlywood;
+}
+.first{
+  margin:auto;
+  min-height:85vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/akomodimi/hotel2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  position:relative;
+  color:#fff;
+  text-align: center;
+ 
+}
+.secondtext{
+  width:100%;
+  margin:auto;
+  color: rgb(63, 63, 63);
+  text-align:left;
+  padding:20px;
+}
+
+
+
+  
+  .activities img{
+      width: 400px;
+      height:250px;
+      padding:10px;
+      border-radius: 18px;
+  }
+
 * {
     box-sizing: border-box;
   }
@@ -21,6 +55,9 @@
   
   .row {
     margin: 8px -16px;
+    margin-top:1%;
+    display:flex;
+    justify-content: space-between;
   }
   
   /* Add padding BETWEEN each column (if you want) */
@@ -35,12 +72,15 @@
     
     display: none; /* Hide columns by default */
     flex-basis:25%;
+    width:33.33%;
+    height:700px;
     background-color:rgb(134, 97, 48);
     border-radius: 18px;
-    margin: auto;
+    margin: 35px;
     box-sizing: border-box;
     transition:0.5s;
     padding:20px;
+   
     
   }
   
@@ -69,6 +109,7 @@
     padding: 12px 16px;
     background-color: white;
     cursor: pointer;
+   
   }
   
   /* Add a grey background color on mouse-over */
@@ -83,49 +124,7 @@
   }
 
   
-.entire{
-    background-color: burlywood;
-}
-.first{
-    margin:auto;
-    min-height:85vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/akomodimi/hotel2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    position:relative;
-    color:#fff;
-    text-align: center;
-   
-}
-.secondtext{
-    width:100%;
-    margin:auto;
-    color: rgb(63, 63, 63);
-    text-align:left;
-    padding:20px;
-}
-
-
-
-    .activities{
-        flex-basis:25%;
-        background-color:rgb(134, 97, 48);
-        border-radius: 18px;
-        margin: auto;
-        box-sizing: border-box;
-        transition:0.5s;
-        padding:20px;
-        float: left;
-      
-        
-    }
-    
-    
-    .activities img{
-        width: 400px;
-        height:250px;
-        padding:10px;
-        border-radius: 18px;
-    }
+ #myBtnContainer{
+  text-align: center;
+ margin:35px;
+ }
