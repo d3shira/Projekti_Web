@@ -12,8 +12,8 @@
   }
   .logo {
      padding: 5px 0 0 40px;
-     width: 65px;
-     height:auto ;
+     width: px;
+     height:80px;
   }
   
   .logo{
@@ -32,11 +32,6 @@
   }
 
     
-    .logo {
-        padding: 5px 0 0 50px;
-        width: 60px;
-        height:auto ;
-    }
 
     nav ul {
         padding: 0;
