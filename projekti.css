@@ -15,6 +15,7 @@
     background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(https://media.istockphoto.com/id/544344076/photo/new-asphalt-highway-scenery-at-sunset.jpg?s=170667a&w=0&k=20&c=ZM40xjzMx_l6mzGBa_zy3ZimbP6QxTcPGd5ZOcZpDUw=);
     background-position: center;
     background-size: cover;
+   
 }
 .heading{
     width: 30%;
@@ -32,6 +33,13 @@
     border-radius: 45px;
     padding: 14px 50px;
     background-color:#fff;
+}
+img {
+    transition: transform .5s ease;
+    border-radius: 5px;
+} 
+img:hover{
+    transform: scale(1.05);
 }
 .heading a:hover{
     letter-spacing: 3px;
@@ -60,7 +68,7 @@
     letter-spacing: 3px;
     border-radius: 1px;
     padding: 30px 30px;
-    background-color:darkgrey;
+    background-color:darkgray;
     border-radius:12px;
 
 }
