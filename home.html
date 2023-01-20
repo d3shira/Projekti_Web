@@ -11,7 +11,7 @@
     <body>
  <div class="dropdown">
     <nav>
-      <img class="logo" src="Kosova.png">
+      <img class="logo" src="images/home/kosovo.png">
         <ul>
            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Places to go</a>
               <ul>
@@ -26,61 +26,88 @@
                   <li><a href="#">Food</a></li>
                </ul>
             </li>
-           <li><a href="#"><i class="fa-solid fa-car"></i> Transportation</a></li>
+           <li><a href="#"><i class="fa-solid fa-car"></i> Transport</a></li>
            <li><a href="#"><i class="fa-solid fa-house"></i> Accomodation </a></li>
         </ul>
    </nav>
 </div>
-<br>
-<br>
-<div class="slideshow-container">
 
-   <div class="mySlides fade">
-     <img src="images/home/prishtina.jpg" style="width:100%" height="50%">
-     <div class="text">Caption Text</div>
-   </div>
-   
-   <div class="mySlides fade">
-   
-     <img src="images/home/IMG_2898.jpg" style="width:100%" height="50%">
-     <div class="text">Caption Two</div>
-   </div>
-   
-   <div class="mySlides fade">
-     <img src="images/home/" style="width:100%" height="50%">
-     <div class="text">Caption Three</div>
-   </div>
-   
-   </div>
-   <br>
-   
-   <div style="text-align:center">
-     <span class="dot"></span> 
-     <span class="dot"></span> 
-     <span class="dot"></span> 
-   </div>
+<section class="first-pic">
+   <div class="centered"><b>WELCOME TO KOSOVO</b></div>
+   <div class="centered1"><b>Meet Europe youngest country!</b></div>
+  </section>
+  <br>
+  <br>
+
+
+
+
+
+<div class="faq-container">
+<div class="faq-one">
+    <!-- faq question -->
+    <h1 class="faq-page">What is an FAQ Page?</h1>
+    <!-- faq answer -->
+    <div class="faq-body">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
+            necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
+            aperiam.
+            Perspiciatis, porro!</p>
+    </div>
+</div>
+<hr class="hr-line">
+<div class="faq-two">
+    <!-- faq question -->
+    <h1 class="faq-page">Why do you need an FAQ page?</h1>
+    <!-- faq answer -->
+    <div class="faq-body">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
+            necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
+            aperiam.
+            Perspiciatis, porro!</p>
+    </div>
+</div>
+<hr class="hr-line">
+<div class="faq-three">
+    <!-- faq question -->
+<h1 class="faq-page">Does it improves the user experience of a website?</h1>
+    <!-- faq answer -->
+    <div class="faq-body">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
+            necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
+            aperiam.
+            Perspiciatis, porro!</p>
+    </div>
+</div>
+</div>
+<br>
+<br> 
+
+
+
+<div class="video-player">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/vb0zobTdTRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 <script>
-   let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+var faq = document.getElementsByClassName("faq-page");
+var i;
+for (i = 0; i < faq.length; i++) {
+faq[i].addEventListener("click", function () {
+  /* Toggle between adding and removing the "active" class,
+  to highlight the button that controls the panel */
+  this.classList.toggle("active");
+  /* Toggle between hiding and showing the active panel */
+  var body = this.nextElementSibling;
+  if (body.style.display === "block") {
+      body.style.display = "none";
+  } else {
+      body.style.display = "block";
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+});
 }
 </script>
+
 
 </body>
 </html>
