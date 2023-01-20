@@ -1,9 +1,8 @@
-
-
 .swiper{
   width:100%;
   height:fit-content;
 }
+
 .swiper-slide img{
   width:100%;
 
@@ -11,7 +10,6 @@
 
 .mySlides {
   display:none;
-
 }
 
 .prev, .next {
@@ -29,19 +27,17 @@
   user-select: none;
 }
 
-
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
 
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
 .text {
-  color: #f2f2f2;
+  color: #ffffff;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -49,23 +45,24 @@
   width: 100%;
   text-align: center;
 }
+
 .swiper .swiper-button-prev, .swiper .swiper-button-next{
   color:#fff;
 }
+
 .swiper .swiper-pagination-bullet-active{
   background:#fff;
 }
 
-
 .caption{
   position: absolute;
-text-align: right;
+  text-align: right;
   color:white;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size:25px;
   font-weight:bolder;
- bottom:170px;
- right:380px;
+  bottom:170px;
+  right:380px;
 }
 
 .txt{
@@ -75,42 +72,39 @@ text-align: right;
   color:white;
   font-weight:600;
   font-style:unset;
+  
 }
-
 
 .image{
   filter:brightness(75%);
-
 }
-
-
 
 .offers{
   
   width:90%;
   height:auto;
   /*border:1px solid rgba(83, 32, 1, 0.589);*/
-margin:auto;
-  
-
+  margin:auto;
 }
+
 .offers h2{
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family:Arial, Helvetica, sans-serif;
   color:rgb(55, 21, 0);
   font-weight:600;
   text-align: center;
   padding:60px 0px 10px 0px;
   font-size: 30px;
 }
+
 .offers .cards{
   margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
   /*border:1px solid rgb(67, 27, 1);*/
   flex-wrap:wrap;
 }
+
 .card{
   position:relative;
   width: 270px;
@@ -131,8 +125,7 @@ margin:auto;
   display: grid;
   place-items:center;
   margin:auto;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .img_text img{
@@ -144,12 +137,11 @@ margin:auto;
 }
 
 .fas{
-position:absolute;
-bottom:5px;
+  position:absolute;
+  bottom:5px;
   color:rgb(0, 101, 0);
   font-size:25px;
 }
-
 
 #link{
   margin:5px;
@@ -157,16 +149,14 @@ bottom:5px;
   bottom:0px;
   right:0px;
   color:rgb(80, 44, 8);
-  
-
 }
+
 .teksti{
   text-align: left;
   font-size: 14px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   font-weight: 400;
 }
-
 
 #icon_click{
   cursor:pointer;
@@ -184,73 +174,66 @@ bottom:5px;
   color:rgb(102, 101, 101);
 }
 
-
 abbr{
   font-style:italic;
   color:rgb(156, 66, 10);
 }
 
-
-
 .weatherWidget{
- width:50%;
- float: left;
-padding: 20px;
-   
-
+  width:50%;
+  float: left;
+  padding: 20px;
 }
 
 h3{
-color:rgb(66, 39, 0);
-font-family:Arial, Helvetica, sans-serif;
-text-align: center;
-margin-top:50px;
-font-size: 30px;
-
+  color:rgb(66, 39, 0);
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top:50px;
+  font-size: 25px
 }
 
 footer{
-height:500px;  
-background: rgb(246, 209, 171);
+  height:500px;  
+  background: rgb(248, 220, 194);
 
 }
 
 .tekssti{
-  font-style: oblique;
+  font-family:Arial, Helvetica, sans-serif;
   padding-top:20%;
   text-align: left;
-  font-size: 20px;
+  font-size: 18px;
   color:rgb(49, 22, 0);
-
 }
+
 #weather{
   background-color: rgb(250, 241, 225);
-
+  position:absolute;
 }
 
 mark{
-  background-color: rgb(216, 176, 149);
+  background-color: rgb(244, 233, 225);
   outline-style:outset;
-  outline-color: rgb(185, 158, 124);
+  outline-color: rgb(219, 201, 179);
 }
-
 
 #h5{
   text-align:center;
   font-size: x-large;
-  margin:10px;
-  
+  margin:10px; 
 }
 
 table, th, td{
+  font-family:Arial, Helvetica, sans-serif;
   text-align: center;
   border:0px inset rgb(87, 70, 53);
   border-collapse: collapse;
 }
 table{
-  margin-top: 30px;
- margin-left: 6%;
- border-spacing: 30px;
+  margin-top: 60px;
+  margin-left: 3%;
+  border-spacing: 30px;
 
 }
 
@@ -268,5 +251,4 @@ td, th{
 }
 .qytetet{
   background-color:  rgb(243, 243, 243);
-
 }
