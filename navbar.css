@@ -45,7 +45,7 @@
         margin-right: 30px;
     }
     nav ul li{
-     background:#66757b;
+     background:#7f8f95;
         position: relative;
         list-style: none;
         display: inline-block;
@@ -61,7 +61,7 @@
     
     }
     nav ul li a:hover{
-       background: #026633;
+       background: #66757B;
     }
     nav ul ul {
         position: absolute;
