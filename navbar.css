@@ -1,7 +1,7 @@
 .dropdown{
     margin: 0 auto;
-    position: sticky;
-    top: 0;
+    position: relative;
+  
     opacity: 0.9;
     
   }
