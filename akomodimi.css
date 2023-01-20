@@ -49,10 +49,11 @@
     height:30px;
     width:200px;
     color: rgb(0, 0, 0);
-    padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    text-align:center;
+    margin:20px;
   }
   
   /* Dropdown button on hover & focus */
