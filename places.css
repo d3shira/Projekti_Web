@@ -149,7 +149,7 @@
   position:absolute;
   bottom:0px;
   right:0px;
-  color:rgb(80, 44, 8);
+  color:#7f8f95;
 }
 
 .teksti{
@@ -177,8 +177,7 @@
 }
 
 abbr{
-  font-style:italic;
-  color:rgb(156, 66, 10);
+  color:#000000;
 }
 
 .weatherWidget{

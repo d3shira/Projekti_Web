@@ -1,18 +1,19 @@
 .dropdown{
     margin: 0 auto;
     position: relative;
-  
-  
+    opacity: 0.9;
     
   }
   nav{
+
      background: #7f8f95;
+     background:  #66757b;
      height: 75px;
      
   }
   .logo {
      padding: 5px 0 0 40px;
-     width: 100px;
+     width: 80px;
      height:80px;
   }
   
@@ -40,7 +41,11 @@
         margin-right: 30px;
     }
     nav ul li{
+
+     background: #66757b;
+
      background:#7f8f95;
+     background: #66757b;
         position: relative;
         list-style: none;
         display: inline-block;
@@ -48,19 +53,24 @@
     nav ul li a {
       display: block;
       padding: 0 15px;  
-  color: white;
-  font-style: bold;
+      color: white;
+      font-style: bold;
       text-decoration: none;
-      line-height: 70px;
+      line-height: 75px;
       font-size: 20px;
     
     }
     nav ul li a:hover{
+
+       background:  #515e63;
+       color:white;
+
        background: #66757B;
+       background:  #515e63;
     }
     nav ul ul {
         position: absolute;
-        top: 60px;
+        top: 70px;
         display: none;
     
     }
