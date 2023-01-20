@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Login</title>
+        <link rel="icon" href="images/home/kosovo.png" type="image/icon type">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<title> Responsive Login and Signup Form </title>-->
+        <script src="https://kit.fontawesome.com/860c7896a7.js" crossorigin="anonymous"></script>
+        <!-- CSS -->
+        <link rel="stylesheet" href="loginsignup.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="navbar.css">      
+        <!-- Boxicons CSS -->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+                        
+    </head>
+    <body>
+        <div class="dropdown">
+            <nav>
+              <img class="logo" src="images/home/kosovo.png" >
+                <ul>
+                   <li><a href="#"><i class="fa-solid fa-location-dot"></i> Places to go</a></li>
+                    <li><a href="#"><i class="fa-solid fa-mountain-sun"></i> Activities</a></li>
+                   <li><a href="#"><i class="fa-solid fa-car"></i> Transport</a></li>
+                   <li><a href="#"><i class="fa-solid fa-house"></i> Accomodation </a></li>
+                   <li><a href="#"><i class="fa-solid fa-user"></i>  </a></li>
+                </ul>
+           </nav>
+        </div>
+
+        <section class="container forms">
+            <div class="form login">
+                <div class="form-content">
+                    <header>Login</header>
+                    <form action="#">
+                        <div class="field input-field">
+                            <input type="email" placeholder="Email" class="input">
+                        </div>
+
+                        <div class="field input-field">
+                            <input type="password" placeholder="Password" class="password">
+                            <i class='bx bx-hide eye-icon'></i>
+                        </div>
+
+                        <div class="form-link">
+                            <a href="#" class="forgot-pass">Forgot password?</a>
+                        </div>
+
+                        <div class="field button-field">
+                           <a href="home.html"> <button>Login</button></a>
+                        </div>
+                    </form>
+
+                    <div class="form-link">
+                        <span>Don't have an account? <a href="#" class="link signup-link">Signup</a></span>
+                    </div>
+                </div>
+
+             
+
+            </div>
+
+            <!-- Signup Form -->
+
+            <div class="form signup">
+                <div class="form-content">
+                    <header>Signup</header>
+                    <form action="#">
+                        <div class="field input-field">
+                            <input type="email" placeholder="Email" class="input">
+                        </div>
+
+                        <div class="field input-field">
+                            <input type="password" placeholder="Create password" class="password">
+                        </div>
+
+                        <div class="field input-field">
+                            <input type="password" placeholder="Confirm password" class="password">
+                            <i class='bx bx-hide eye-icon'></i>
+                        </div>
+
+                        <div class="field button-field">
+                            <button>Signup</button>
+                        </div>
+                    </form>
+
+                    <div class="form-link">
+                        <span>Already have an account? <a href="#" class="link login-link">Login</a></span>
+                    </div>
+                </div>
+
+                
+
+            </div>
+        </section>
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer class="footer-distributed">
+        
+            <div class="footer-left">
+                <img src="images/home/kosovo.png" alt="footer logo" style="width:90px;height:90px;">
+               <p><strong>Visit Kosovo</strong> </p>
+        
+                <p class="footer-company-name">Copyright © 2023  All rights reserved</p>
+            </div>
+        
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>Prishtine</span>
+                        Kosovo</p>
+                </div>
+        
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+383 44 567 765</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:">visitkosovo@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>About us</span>
+                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet perspiciatis quos fuga sit obcaecati debitis voluptatem similique sunt expedita?
+                </p>
+                <div class="footer-icons">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JavaScript -->
+        <!--<script src="js/script.js"></script>-->
+        <script> const forms = document.querySelector(".forms"),
+      pwShowHide = document.querySelectorAll(".eye-icon"),
+      links = document.querySelectorAll(".link");
+
+pwShowHide.forEach(eyeIcon => {
+    eyeIcon.addEventListener("click", () => {
+        let pwFields = eyeIcon.parentElement.parentElement.querySelectorAll(".password");
+        
+        pwFields.forEach(password => {
+            if(password.type === "password"){
+                password.type = "text";
+                eyeIcon.classList.replace("bx-hide", "bx-show");
+                return;
+            }
+            password.type = "password";
+            eyeIcon.classList.replace("bx-show", "bx-hide");
+        })
+        
+    })
+})      
+
+links.forEach(link => {
+    link.addEventListener("click", e => {
+       e.preventDefault(); //preventing form submit
+       forms.classList.toggle("show-signup");
+    })
+})
+</script>
+
+
+
+
+    </body>
+</html>
