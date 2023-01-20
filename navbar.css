@@ -9,6 +9,8 @@
      background: #7f8f95;
      background:  #66757b;
      height: 80px;
+     width:100%;
+    /* position:fixed;*/
      
   }
   .logo {
@@ -83,3 +85,8 @@
         display: list-item;
         position: relative;
     }
+
+
+
+
+

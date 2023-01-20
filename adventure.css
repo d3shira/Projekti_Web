@@ -11,6 +11,17 @@
     background-size: cover;
     position: relative;
 }
+@media(max-width:720px){
+    .topadventure div h1{
+     padding: 0;
+     padding-top:200px;
+     top:50%;
+    }
+    .videodiv{
+        scale:0.6;
+
+    }
+   }
 
 section{
     margin-left: 100px;
@@ -76,13 +87,17 @@ p{
   }
 
   .videodiv{
-width:945px;
+width:auto;
 height:400px;
-margin-right:150px;
-margin-left:150px;
+/*margin-right:150px;
+margin-left:150px;*/
+display: flex;
+justify-content: center;
 align-content: center;
 margin-top:100px;
 margin-bottom:100px;
+
+
   }
 
   h2{
