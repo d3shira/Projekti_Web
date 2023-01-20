@@ -5,69 +5,21 @@
     list-style: none;
     font-family: 'poppins' sans-serif;
 }
-.header{
-    width:100%;
-    height:80px;
-    background-color:white;
-    
-}
-a,a:hover{
-    text-decoration: none;
-    color:black ;
-}
-ul{
-    list-style: none;
-}
-li{
-    display: inline-block;
-}
-.header .fillimi{
-    width:90%;
-    height:80px;
-    margin:auto;
-    color:black;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 0px;
-}
-.header .fillini .logo{
-    margin-left: 50px;
-}
-.header .fillimi .logo a{
-    font-size:30px;
-    font-weight:700;
-    text-transform: uppercase;
-}
-.header .fillimi .social-media ul li i{
-    width:45px;
-    height:45px;
-    line-height:45px;
-    margin-right:5px;
-    border-radius: 50px;
-    text-align: center;
-    align-items: center;
-    font-size: 19px;
-    background-color: darkgrey;
-    transition: all 0.3s ease-in-out;
-}
-.header .fillimi .social-media ul li i:hover{
-    background-color:orange;
-}
+
 .body{
     width:100%;
     height: 90vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIM8g5MSQyjmpq__T91M9PRRbZVw7zVOxpUQVuwoOqLV9V_qvhoRsVrtiQPGCJ7OG9c2s&usqp=CAU);
+    background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(https://media.istockphoto.com/id/544344076/photo/new-asphalt-highway-scenery-at-sunset.jpg?s=170667a&w=0&k=20&c=ZM40xjzMx_l6mzGBa_zy3ZimbP6QxTcPGd5ZOcZpDUw=);
     background-position: center;
     background-size: cover;
 }
 .heading{
     width: 30%;
     text-align: center;
-    color: #fff;
+    color: white;
 }
 .heading h1{
     font-size: 40px;
@@ -84,6 +36,7 @@ li{
 .heading a:hover{
     letter-spacing: 3px;
     transition: 0.6s;
+    background-color: #cfb79b;
 }
 .tours{
     width:70%;
@@ -93,7 +46,7 @@ li{
 
 }
  span{
-    color:rgb(230, 129, 52);
+    color:#1f4e45;
     
 }
 .places{
@@ -121,31 +74,11 @@ li{
     background-color: #fff;
 }
 .places a:hover{
-    background-color:darkgray;
+    background-color:#cfb79b;
     letter-spacing: 3px;
     transition: 0.6s;
 }
-.footer{
-    width:90%;
-    height:50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.footer a{
-    text-decoration: none;
-    color:black;
-    font-size: 18px;
-    font-weight: bold;
-}
-.footer a:hover{
-    background-color: rgb(218, 218, 218);
-    border-radius: 15px;
-    color:blue;
-}
-.butoni a:hover{
-    background-color: rgb(246, 188, 80);
-}
+
 .tours .places .h2{
     border-radius:12px;
 }
@@ -177,7 +110,7 @@ li{
     background-color: #fff;
 }
 .places1 a:hover{
-    background-color:darkgray;
+    background-color:#cfb79b;
     letter-spacing: 3px;
     transition: 0.6s;
 }.tours .places1 .h2{
@@ -214,7 +147,7 @@ li{
     background-color: #fff;
 }
 .places2 a:hover{
-    background-color:darkgray;
+    background-color:#cfb79b;
     letter-spacing: 3px;
     transition: 0.6s;
 }.tours .places2 .h2{
