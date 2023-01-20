@@ -1,5 +1,5 @@
 footer {
-    position: fixed;
+   
     bottom: 0;
   }
   
@@ -13,6 +13,7 @@ footer {
   }
   
   .footer-distributed {
+    position: relative;
     background-color: #66757b;
     box-sizing: border-box;
     width: 100%;

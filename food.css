@@ -97,7 +97,8 @@ img:hover{
     transform: scale(1.2);
 }
 .foodbox{
-    flex-basis:25%;
+    position: relative;
+   flex: 25%;
     background-color: #e8e6e7;
     border-radius: 18px;
     margin: 20px;
