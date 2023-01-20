@@ -2,11 +2,11 @@
     margin: 0 auto;
     position: relative;
   
-    opacity: 0.9;
+  
     
   }
   nav{
-     background-color: #BFAA8C;
+     background: #66757b;
      height: 75px;
      
   }
@@ -45,7 +45,7 @@
         margin-right: 30px;
     }
     nav ul li{
-     background:#528555;
+     background:#66757b;
         position: relative;
         list-style: none;
         display: inline-block;
