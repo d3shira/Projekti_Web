@@ -6,7 +6,11 @@
     
   }
   nav{
+<<<<<<< Updated upstream
 
+=======
+     background: #7f8f95;
+>>>>>>> Stashed changes
      background:  #66757b;
      height: 75px;
      
@@ -41,9 +45,14 @@
         margin-right: 30px;
     }
     nav ul li{
+<<<<<<< Updated upstream
 
      background: #66757b;
 
+=======
+     background:#7f8f95;
+     background: #66757b;
+>>>>>>> Stashed changes
         position: relative;
         list-style: none;
         display: inline-block;
@@ -59,9 +68,14 @@
     
     }
     nav ul li a:hover{
+<<<<<<< Updated upstream
 
        background:  #515e63;
 
+=======
+       background: #66757B;
+       background:  #515e63;
+>>>>>>> Stashed changes
     }
     nav ul ul {
         position: absolute;
