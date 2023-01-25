@@ -55,7 +55,7 @@
 }
 
 .caption{
-  position: absolute;
+ position: absolute;
   text-align: right;
   color:white;
   font-family:Georgia, 'Times New Roman', Times, serif;
@@ -93,7 +93,8 @@
   font-weight:600;
   text-align: center;
   padding:60px 0px 10px 0px;
-  font-size: 30px;
+  /*font-size: 30px;*/
+  font-size:5vh;
 }
 
 .offers .cards{
@@ -107,8 +108,11 @@
 
 .card{
   position:relative;
+  /*
   width: 270px;
-  height: 380px;
+  height: 380px;*/
+  width:21vw;
+  height:70vh;
   /*border:1px solid rgb(67, 27, 1);*/
   margin:0px;
   background-color:#E8E7E6;
@@ -122,7 +126,7 @@
   background: #CFB79F;
   border-radius:10px 10px 0px 0px;
   color:black;
-  font-size: 20px;
+  font-size: 3.5vh;
   display: grid;
   place-items:center;
   margin:auto;
@@ -132,7 +136,7 @@
 .img_text img{
   position:relative;
   width:100%;
-  height:170px;
+  height:30vh;
   border-radius: 0px;
 
 }
@@ -141,7 +145,7 @@
   position:absolute;
   bottom:5px;
   color:rgb(0, 101, 0);
-  font-size:25px;
+  font-size:4vh;
 }
 
 #link{
@@ -150,11 +154,13 @@
   bottom:0px;
   right:0px;
   color:#7f8f95;
+  font-size: 2.62vh;
+
 }
 
 .teksti{
   text-align: left;
-  font-size: 14px;
+  font-size: 2.62vh;
   font-family:Arial, Helvetica, sans-serif;
   font-weight: 400;
   padding:0px 10px;
@@ -191,21 +197,21 @@ h3{
   font-family:Arial, Helvetica, sans-serif;
   text-align: center;
   margin-top:50px;
-  font-size: 25px
+  font-size: 5vh;
 }
-
 
 .tekssti{
   font-family:Arial, Helvetica, sans-serif;
   padding-top:20%;
   text-align: left;
-  font-size: 18px;
-  color:rgb(49, 22, 0);
+  font-size: 3vh;
+  color:rgb(0, 0, 0);
 }
 
 #weather{
   background-color:#E8E7E6;
   position:absolute;
+  
 }
 
 mark{
@@ -225,12 +231,13 @@ table, th, td{
   text-align: center;
   border:0px inset rgb(87, 70, 53);
   border-collapse: collapse;
+  font-size: 2.8vh;
 }
 table{
-  margin-top: 60px;
-  margin-left: 3%;
-  border-spacing: 30px;
-
+  margin-top: 10vh;
+  width:95vw;
+  margin-left: 4vh;
+  border-spacing: 70px;
 }
 
 th, td{
@@ -242,12 +249,19 @@ th, td{
 td, th{
   color:#000000;
   background:#E8E7E6;
-
-
 }
 .qytetet{
   background-color: #7f8f95;
 }
+
+#displayDateTime{
+  font-size:3vh;
+  color:black;
+  text-shadow:0.3px 0.3px #7f8f95;
+
+}
+
+
 #myBtn {
   display: none;
   position: fixed;
