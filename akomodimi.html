@@ -14,35 +14,30 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="akomodimi.js"></script>
-    <style>
-      #dropddown{
-       
-    margin: 0 auto;
-    position: relative;
-    opacity: 0.9;
-    
   
-      }
-    </style>
     
 </head>
 <body>
   
-  <div id="dropddown">
+  <header>
     <nav>
-      <a href="home.html"> <img class="logo" src="images/home/kosovo.png" ></a>
-        <ul>
-           <li><a href="Places.html"><i class="fa-solid fa-location-dot"></i> Places to go</a>
-          </li>
-            <li><a href="activities.html"><i class="fa-solid fa-mountain-sun"></i> Activities</a>
-            </li>
-           <li><a href="transporti.html"><i class="fa-solid fa-car"></i> Transport</a></li>
-           <li><a href="akomodimi.html"><i class="fa-solid fa-house"></i> Accomodation </a></li>
-           <li><a href="loginsignup.html"><i class="fa-solid fa-user"></i> </a></li>
+        <ul class="nav-bar">
+            <li class="logo"><a href="#"><img src="images/home/kosovo.png" alt="logo"></a></li>
+            <input type="checkbox" id="check">
+            <span class="menu">
+                <li><a href="Places.html"><i class="fa-solid fa-location-dot"></i> Places to go</a></li>
+                <li><a href="activities.html"><i class="fa-solid fa-mountain-sun"></i> Activities</a></li>
+                <li><a href="transporti.html"><i class="fa-solid fa-car"></i> Transport</a></li>
+                <li><a href="akomodimi.html"><i class="fa-solid fa-house"></i> Accomodation</a></li>
+                <li><a href="loginsignup.html"><i class="fa-solid fa-user"></i> </a></li>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+           
         </ul>
-   </nav>
-</div>
-<section class="header">
+    </nav>
+   </header>
+<section class="header1">
 <div class="text-box">
     <!--<h1 style="font-size:45px; font-family: Times New Roman, Times, serif;">-->
        <h1> Best places to stay in Kosovo </h1>

@@ -8,13 +8,7 @@ body{
  
 }
 
-body{
-    
-    font-family: system-ui;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-}
+
 
   
 section{
@@ -128,5 +122,12 @@ margin: auto;
   flex-flow: row;
 }
 
-
+@media(max-width:610px){
+  .centered{
+    font-size: small;
+  }
+  .centered1{
+    font-size: small;
+  }
+}
       

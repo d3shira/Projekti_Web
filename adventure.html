@@ -20,18 +20,24 @@
 
 </head>
 <body>
-    <div class="dropdown">
+    <header>
         <nav>
-            <a href="home.html"> <img class="logo" src="images/home/kosovo.png" ></a>
-            <ul>
-               <li><a href="Places.html"><i class="fa-solid fa-location-dot"></i> Places to go</a></li>
-                <li><a href="activities.html"><i class="fa-solid fa-mountain-sun"></i> Activities</a></li>
-               <li><a href="transporti.html"><i class="fa-solid fa-car"></i> Transport</a></li>
-               <li><a href="akomodimi.html"><i class="fa-solid fa-house"></i> Accomodation </a></li>
-               <li><a href="loginsignup.html"><i class="fa-solid fa-user"></i> </a></li>
+            <ul class="nav-bar">
+                <li class="logo"><a href="#"><img src="images/home/kosovo.png" alt="logo"></a></li>
+                <input type="checkbox" id="check">
+                <span class="menu">
+                    <li><a href="Places.html"><i class="fa-solid fa-location-dot"></i> Places to go</a></li>
+                    <li><a href="activities.html"><i class="fa-solid fa-mountain-sun"></i> Activities</a></li>
+                    <li><a href="transporti.html"><i class="fa-solid fa-car"></i> Transport</a></li>
+                    <li><a href="akomodimi.html"><i class="fa-solid fa-house"></i> Accomodation</a></li>
+                    <li><a href="loginsignup.html"><i class="fa-solid fa-user"></i> </a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+               
             </ul>
-       </nav>
-    </div>
+        </nav>
+       </header>
     <!--BUTTON-->
     <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
 
