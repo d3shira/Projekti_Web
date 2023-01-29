@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="images/home/kosovo.png" type="image/icon type">
         <title>visitkosovo</title>
         <link rel="stylesheet" href="home.css">
         <link rel="stylesheet" href="footer.css">
         <link rel="stylesheet" href="navbar.css">
-        <script   src="home.js"></script>
-        <script src="https://kit.fontawesome.com/860c7896a7.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
         <script type="text/javascript" src="bootstrap.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
+        <script src="https://kit.fontawesome.com/860c7896a7.js" crossorigin="anonymous"></script>
+   
+    </headyg
+    >
     <body>
-       
+        <header>
             <nav>
                 <ul class="nav-bar">
                     <li class="logo"><a href="#"><img src="images/home/kosovo.png" alt="logo"></a></li>
                     <input type="checkbox" id="check">
                     <span class="menu">
-                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Places to go</a></li>
-                        <li><a href="#"><i class="fa-solid fa-mountain-sun"></i> Activities</a></li>
-                        <li><a href="#"><i class="fa-solid fa-car"></i> Transport</a></li>
-                        <li><a href="#"><i class="fa-solid fa-house"></i> Accomodation</a></li>
+                        <li><a href="Places.html"><i class="fa-solid fa-location-dot"></i> Places to go</a></li>
+                        <li><a href="activities.html"><i class="fa-solid fa-mountain-sun"></i> Activities</a></li>
+                        <li><a href="transporti.html"><i class="fa-solid fa-car"></i> Transport</a></li>
+                        <li><a href="akomodimi.html"><i class="fa-solid fa-house"></i> Accomodation</a></li>
                         <li><a href="loginsignup.html"><i class="fa-solid fa-user"></i> </a></li>
                         <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
                     </span>
@@ -29,7 +33,11 @@
                    
                 </ul>
             </nav>
+           </header>
+        
+              
          
+            
 
        <section class="first-pic" >
      <div class="centered"><b>WELCOME TO KOSOVO</b></div>
@@ -85,24 +93,7 @@
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/vb0zobTdTRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 </div>
-<script>
-var faq = document.getElementsByClassName("faq-page");
-var i;
-for (i = 0; i < faq.length; i++) {
-faq[i].addEventListener("click", function () {
-  /* Toggle between adding and removing the "active" class,
-  to highlight the button that controls the panel */
-  this.classList.toggle("active");
-  /* Toggle between hiding and showing the active panel */
-  var body = this.nextElementSibling;
-  if (body.style.display === "block") {
-      body.style.display = "none";
-  } else {
-      body.style.display = "block";
-  }
-});
-}
-</script>
+<script src="faq.js"></script>
 <br>
 <br>
 <br>
