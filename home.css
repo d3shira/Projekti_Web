@@ -72,10 +72,7 @@ margin: auto;
 }
 
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 
-
-/* Style the faq-page panel. Note: hidden by default */
 .faq-body {
   padding: 0 18px;
   background-color:#e8e6e7;
@@ -83,17 +80,19 @@ margin: auto;
   overflow: hidden;
 }
 
+
+
 .faq-page:after {
   content: '\02795';
-  /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   float: right;
   margin-left: 5px;
+  
 }
 
 .active:after {
   content: "\2796";
-  /* Unicode character for "minus" sign (-) */
+  
 }
 #container {
   width: auto;
