@@ -49,3 +49,4 @@ if(k[j].vegetarian=='yes'){
 console.log(lloji); 
 
 
+
