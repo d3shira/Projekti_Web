@@ -16,12 +16,6 @@ const swiper = new Swiper('.swiper', {
 });
 
 
-
-const divs = document.getElementsByClassName("qyteti");
-for(const div of divs){
-    div.addEventListener("click", myFunction);
-}
-
 var today = new Date();
 var day = today.getDay();
 var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
