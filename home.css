@@ -118,5 +118,23 @@ margin: auto;
   .centered1{
     font-size: small;
   }
+  .faq-body{
+    width: 100%;
+  }
+  .faq-page{
+    width: 100%;
+    
+  }
+  .faq-container{
+    width: 100%;
+    justify-content: center;
+  }
+  .bodyelements{
+    display: flex;
+    flex-direction: column;
+  }
+  .hr-line{
+    width: 90%;
+  }
 }
       
