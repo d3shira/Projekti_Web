@@ -1,5 +1,5 @@
 //objekte
-let flija = {
+const flija = {
     category: 'pastries' ,
     vegeterian: 'no',
     price: 10
