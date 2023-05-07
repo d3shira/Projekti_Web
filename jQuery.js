@@ -1,5 +1,14 @@
 $(document).ready(function(){
     $("button").click(function(){
-      $("#foodlist").fadeToggle();
+      $("#foodlist").fadeToggle("slow");
     });
   });
+
+
+
+
+
+
+
+  
+ 

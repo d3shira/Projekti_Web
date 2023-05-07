@@ -76,7 +76,12 @@ function cmimet(cmimi1, cmimi2) {
   setTimeout(u,2000);
   console.log("Cmimet e ushqimeve ");
   
+<<<<<<< Updated upstream
 
+=======
+  
+  
+>>>>>>> Stashed changes
 
 
 
